@@ -17,6 +17,7 @@ This notebook demonstrates video semantic segmentation using MobileNet. It provi
 
 
 For comparing the model's performance, two comparison metrics were used namely Dice Loss and mIoU (Mean Intersection over Union) score.
+
 a) mIoU is computed by taking the average of the IoU scores across all classes in the 
 segmentation task. It provides an overall measure of the model's performance in segmenting 
 multiple classes.
