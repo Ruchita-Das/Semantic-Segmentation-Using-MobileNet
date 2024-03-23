@@ -32,6 +32,7 @@ predicted and ground truth masks to the sum of their areas
 Dice coefficient = (2 * Intersection) / (Ground Truth + Predicted) 
 
 **MobileNetV3 Performance:**
+
 mIoU Score: 0.446
 
 Number of Epochs: 75
