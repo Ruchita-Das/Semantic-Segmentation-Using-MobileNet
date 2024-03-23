@@ -1,4 +1,4 @@
-# Semantic Segmentation
+# Semantic Segmentation Using MobileNet
 In this project, a study was conducted on lightweight model, focusing specifically on MobileNet. Semantic segmentation was performed using the MobileNet model on two popular datasets: CamVid and Stanford Background Dataset.
 
 Dataset:
