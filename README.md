@@ -32,12 +32,8 @@ Where Dice Coefficient (also known as F1 Score) is the ratio of twice the inters
 predicted and ground truth masks to the sum of their areas
 Dice coefficient = (2 * Intersection) / (Ground Truth + Predicted) 
 
-**MobileNetV3 Performance:**
+**MobileNetV3 Performance For 75 Epochs(Training time taken was 45 minutes)**
 
 mIoU Score: 0.446
-
-Number of Epochs: 75
-
-Training Time: 45 minutes
 
 Dice Loss: 0.503
