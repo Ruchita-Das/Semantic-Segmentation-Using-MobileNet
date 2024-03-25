@@ -1,13 +1,13 @@
 # Semantic Segmentation Using MobileNet
 In this project, a study was conducted on lightweight model, focusing specifically on MobileNet. Semantic segmentation was performed using the MobileNet model on two popular datasets: CamVid and Stanford Background Dataset.
 
-Dataset:
+**Dataset**:
 
 CamVid: This dataset consists of images captured from a vehicle-mounted camera while driving in urban areas. It includes pixel-level annotations for various semantic classes such as road, pedestrian, car, etc.
 
 Stanford Background Dataset: This dataset contains images with pixel-level annotations of outdoor scenes. It is commonly used for semantic segmentation tasks.
 
-Files:
+**Files**:
 
 1)SemSeg.ipynb:
 This notebook contains the implementation of image semantic segmentation using MobileNet on theStanford dataset. It includes preprocessing steps, model training, evaluation, and visualization of segmentation results.
@@ -32,7 +32,7 @@ Where Dice Coefficient (also known as F1 Score) is the ratio of twice the inters
 predicted and ground truth masks to the sum of their areas
 Dice coefficient = (2 * Intersection) / (Ground Truth + Predicted) 
 
-**MobileNetV3 Performance For 75 Epochs(Training time taken was 45 minutes)**
+**MobileNetV3 Performance For 75 Epochs(Training time taken was 45 minutes)**:
 
 mIoU Score: 0.446
 
