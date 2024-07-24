@@ -22,7 +22,7 @@ a) mIoU is computed by taking the average of the IoU scores across all classes i
 segmentation task. It provides an overall measure of the model's performance in segmenting 
 multiple classes.
 
-mIoU = (IoU1 + IoU2 + ... + IoUN) / N (1)
+mIoU = (IoU1 + IoU2 + ... + IoUN) / N 
 
 b) Dice Loss is a loss function which is designed to address class imbalance and encourage 
 accurate segmentation at the pixel level. It penalizes the model for low overlap and rewards 
@@ -30,7 +30,8 @@ accurate segmentation.
 
 Dice Loss is given by:
 
-Dice Loss = 1 - Dice coefficient (2)
+Dice Loss = 1 - Dice coefficient 
+
 Where Dice Coefficient (also known as F1 Score) is the ratio of twice the intersection of the 
 predicted and ground truth masks to the sum of their areas
 
